@@ -5,8 +5,6 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-require("./styles.css");
-
 var _react = _interopRequireDefault(require("react"));
 
 var _styled = _interopRequireDefault(require("@emotion/styled"));
