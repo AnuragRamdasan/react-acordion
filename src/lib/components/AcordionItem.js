@@ -13,7 +13,7 @@ const HeaderContainer = styled.div`
   cursor: pointer;
   border-bottom: ${props => props.theme.borderBottom};
 `;
-const Title = styled.h3`
+const Title = styled.h2`
   font-size: 1.6rem;
   margin: 0;
   font-weight: 700;

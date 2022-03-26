@@ -23,7 +23,7 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 const HeaderContainer = _styled.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  padding: 0.8rem 1.2rem;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  background-color: ", ";\n\n  //rgba(0,0,0,.3)\n  cursor: pointer;\n  border-bottom: ", ";\n"])), props => props.theme.backgroundHeader, props => props.theme.borderBottom);
 
-const Title = _styled.default.h3(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  font-size: 1.6rem;\n  margin: 0;\n  font-weight: 700;\n  color: ", ";\n"])), props => props.theme.color);
+const Title = _styled.default.h2(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  font-size: 1.6rem;\n  margin: 0;\n  font-weight: 700;\n  color: ", ";\n"])), props => props.theme.color);
 
 const Open = _styled.default.svg(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\n  margin-top: 15px;\n  align-items: center;\n  width: 20px;\n  height: 20px;\n  fill: ", ";\n  -webkit-transform: translateY(-50%) rotate(-45deg);\n  -moz-transform: translateY(-50%) rotate(-45deg);\n  -ms-transform: translateY(-50%) rotate(-45deg);\n  -o-transform: translateY(-50%) rotate(-45deg);\n  transform: translateY(-50%) rotate(-45deg);\n\n  &.rotate-svg {\n    fill: ", ";\n    -webkit-transform: translateY(-50%) rotate(-90deg);\n    -moz-transform: translateY(-50%) rotate(-90deg);\n    -ms-transform: translateY(-50%) rotate(-90deg);\n    -o-transform: translateY(-50%) rotate(-90deg);\n    transform: translateY(-50%);\n  }\n"])), props => props.theme.color, props => props.theme.color);
 
