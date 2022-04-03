@@ -64,6 +64,7 @@ const Paragraph = styled.p`
   line-height: 1.3;
   color: ${props => props.theme.color};
   text-align: center;
+  white-space: pre-line;
 `;
 
 const AccordionItem = ({ data, theme }) => {
